@@ -1,0 +1,60 @@
+@import url("normalize.css");
+
+.container {
+  width: auto;
+  height: 100px;
+}
+
+.container img {
+  display: block;
+  margin: 0 auto;
+}
+
+form {
+  display: block;
+  height: 100px;
+  
+}
+
+.search_field {
+  width: 584px;
+  height: 44px;
+  margin: 0 auto;
+  border: 1px solid #EAEAEA;
+  box-shadow: 0px 1px 1px #CCC;
+  border-radius: 3px;
+}
+
+input {
+  height: 30px;
+  width: 400px;
+  float: left;
+  margin: 6px 0 0 15px;
+  border: 0;
+}
+
+input:focus {
+  outline: none;
+}
+
+.keyboard {
+  display:block;
+  background: url(images/keyboard.png) 0 0 no-repeat;
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  float: right;
+  margin: 17px 15px 0 0;
+}
+
+.voice {
+  display: inline-block;
+  background: url(images/voice.png) 0 0 no-repeat;
+  width: 24px;
+  height: 24px;
+  background-size: cover;
+  vertical-align: middle;
+  float: right;
+  margin: 10px 15px 0 0;
+}
+
