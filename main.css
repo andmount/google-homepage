@@ -1,8 +1,15 @@
 @import url("normalize.css");
 
+/* Logo and search form */
+
+.container, form {
+  clear: both;
+}
+
 .container {
   width: auto;
   height: 100px;
+  margin-top: 150px;
 }
 
 .container img {
@@ -13,6 +20,7 @@
 form {
   display: block;
   height: 100px;
+  margin-top: 17px;
   
 }
 
@@ -56,5 +64,72 @@ input:focus {
   vertical-align: middle;
   float: right;
   margin: 10px 15px 0 0;
+}
+
+/* Navigation */
+
+a {
+  font-size: 13px;
+  font-family: Arial, sans-serif;
+  color: #000000de;
+  text-decoration: none;
+ 
+}
+
+nav {
+  height: 50px;
+  position: relative;
+}
+
+#nav-left {
+  list-style-type: none;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 8.5px;
+  left: 20px;
+}
+
+#nav-right {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  right: 25px;
+}
+
+li {
+  display: inline-block;
+  text-align: right;
+  margin: 15px 5px;
+}
+
+/* #post > a, #images > a {
+  font-size: 13px;
+  font-family: Arial, sans-serif;
+  color: #000000de;
+  text-decoration: none;
+ 
+} */
+
+
+
+#apps {
+  width: 30px;
+  height: 30px;
+  background: url(images/icons.png) -132px -38px;
+  vertical-align: middle;
+}
+
+#signin {
+  background-color: #4285f4;
+  padding: 7px 12px;
+  border: 1px solid #4285f4;
+  border-radius: 2px;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: white;
 }
 
