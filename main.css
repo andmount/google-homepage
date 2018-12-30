@@ -8,18 +8,19 @@
 
 .container {
   width: auto;
-  height: 100px;
-  margin-top: 150px;
+  height: 400px;
+  margin-top: 148px;
 }
 
 .container img {
   display: block;
   margin: 0 auto;
+  margin-bottom: 26px;
 }
 
 form {
   display: block;
-  height: 100px;
+  height: 62px;
   margin-top: 17px;
   
 }
@@ -66,6 +67,32 @@ input:focus {
   margin: 10px 15px 0 0;
 }
 
+#bot-buttons {
+  width: 400px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+div > button {
+  display: inline-block;
+  clear: none;
+  background-color: #f6f6f6;
+  padding: 11px 16px;
+  border: 1px solid #f6f6f6;
+  border-radius: 2px;
+  font-weight: bold;
+  
+  
+}
+
+button > a {
+  color: #777;
+}
+
+#lucky {
+  margin: 0 0 0 8px;
+}
+
 /* Navigation */
 
 a {
@@ -81,7 +108,7 @@ nav {
   position: relative;
 }
 
-#nav-left {
+#topnav-left {
   list-style-type: none;
   position: absolute;
   margin: 0;
@@ -90,7 +117,7 @@ nav {
   left: 20px;
 }
 
-#nav-right {
+#topnav-right {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -99,10 +126,10 @@ nav {
   right: 25px;
 }
 
-li {
+nav li {
   display: inline-block;
   text-align: right;
-  margin: 15px 5px;
+  margin: 15px 7px;
 }
 
 /* #post > a, #images > a {
@@ -127,9 +154,46 @@ li {
   padding: 7px 12px;
   border: 1px solid #4285f4;
   border-radius: 2px;
-  font-family: Arial, sans-serif;
-  font-size: 13px;
   font-weight: bold;
   color: white;
 }
+
+/* Footer */
+footer {
+  height: 40px;
+  width: 100%;
+  position: relative;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  
+}
+
+#botnav-left {
+  list-style-type: none;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 27px;
+}
+
+#botnav-right {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  right: 25px;
+}
+
+footer li {
+  display: inline-block;
+  text-align: right;
+  margin: 13.5px 13px;
+}
+
+footer a {
+  color: #5f6368;
+}
+
 
