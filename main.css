@@ -1,5 +1,16 @@
 @import url("normalize.css");
 
+body {
+  overflow: hidden;
+}
+
+a {
+  font-size: 13px;
+  font-family: Arial, sans-serif;
+  color: #000000de;
+  text-decoration: none;
+}
+
 /* Logo and search form */
 
 .container, form {
@@ -22,7 +33,6 @@ form {
   display: block;
   height: 62px;
   margin-top: 17px;
-  
 }
 
 .search_field {
@@ -47,7 +57,7 @@ input:focus {
 }
 
 .keyboard {
-  display:block;
+  display: block;
   background: url(images/keyboard.png) 0 0 no-repeat;
   width: 24px;
   height: 24px;
@@ -81,8 +91,6 @@ div > button {
   border: 1px solid #f6f6f6;
   border-radius: 2px;
   font-weight: bold;
-  
-  
 }
 
 button > a {
@@ -94,14 +102,6 @@ button > a {
 }
 
 /* Navigation */
-
-a {
-  font-size: 13px;
-  font-family: Arial, sans-serif;
-  color: #000000de;
-  text-decoration: none;
- 
-}
 
 nav {
   height: 50px;
@@ -132,16 +132,6 @@ nav li {
   margin: 15px 7px;
 }
 
-/* #post > a, #images > a {
-  font-size: 13px;
-  font-family: Arial, sans-serif;
-  color: #000000de;
-  text-decoration: none;
- 
-} */
-
-
-
 #apps {
   width: 30px;
   height: 30px;
@@ -159,13 +149,18 @@ nav li {
 }
 
 /* Footer */
+
 footer {
   height: 40px;
   width: 100%;
-  position: relative;
+  position: absolute;
+  bottom: 0;
   background-color: #f2f2f2;
-  border-top: 1px solid #e4e4e4;
-  
+  border-top: 1px solid #e4e4e4; 
+}
+
+footer ul {
+  position: relative;
 }
 
 #botnav-left {
@@ -174,7 +169,7 @@ footer {
   margin: 0;
   padding: 0;
   top: 0;
-  left: 27px;
+  left: 18px;
 }
 
 #botnav-right {
@@ -189,7 +184,7 @@ footer {
 footer li {
   display: inline-block;
   text-align: right;
-  margin: 13.5px 13px;
+  margin: 13.5px 11px;
 }
 
 footer a {
